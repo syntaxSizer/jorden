@@ -141,3 +141,8 @@ and (max-width : 1024px)  {
     color: #F49824;
     font-size: 19px;
 }
+
+.icons p{
+    color:
+       rgba(255, 255, 255, 0.54);
+}

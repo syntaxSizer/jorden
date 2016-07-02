@@ -119,6 +119,10 @@ and (max-width : 1024px)  {
         margin-top: 20px;
         margin-left: -20px;
     }
+    .bg {
+        margin-top: 20px;
+}
+
     .tex-centered {
    text-align: center;
 }
@@ -172,4 +176,15 @@ and (max-width : 1024px)  {
     border-right: solid 1px #adacac;
 }
 
+}
+.row{
+    max-width: 1350px;
+    margin: 0;
+}
+
+
+@media (max-width:1024px)and (min-width:768px){
+    .bg {
+        margin-top: 190px;
+}
 }

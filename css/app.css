@@ -55,7 +55,9 @@ footer {
     background-color: #222936;
 }
 .body{
-    background-color: bisque;
+    background-color: #524B58;
+/*max-height: 0 auto;*/
+
 }
 
 .jor h1 {
@@ -73,7 +75,7 @@ footer {
 
 
 .msr-imag {
-    margin-top: 80px;
+    margin-top: 50px;
 }
 
 .msr-1 {
@@ -85,7 +87,7 @@ footer {
 
 .msr-2 {
  margin-top: 160px;
-    padding-left:50px;
+/*    padding-left:-25px;*/
     color: #fff;
 }
 
@@ -149,5 +151,14 @@ and (max-width : 1024px)  {
 
 
 .overlay-2 {
-    background-color: grey;
+    background-color:rgba(101, 103, 104, 0.68);
+}
+
+.border {
+    border-left: solid 1px #adacac;
+    border-right: solid 1px #adacac;
+}
+
+.height {
+    height: 37px;
 }

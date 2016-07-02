@@ -17,7 +17,7 @@
 
 
 
- var num = -1, count;
+ var num = 1541, count;
 
 $('#this').hover(startCounter);
 
@@ -39,7 +39,7 @@ function stopCounter() {
 
 
 
-var num2 = -1 ,counter2;
+var num2 = 8 ,counter2;
 
 $('#fav').hover(startCounter2);
 

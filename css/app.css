@@ -122,6 +122,10 @@ and (max-width : 1024px)  {
     .tex-centered {
    text-align: center;
 }
+   .border {
+    border-left: transparent;
+    border-right: transparent;
+}
 
 }
 .tex-centered {
@@ -154,11 +158,18 @@ and (max-width : 1024px)  {
     background-color:rgba(101, 103, 104, 0.68);
 }
 
+
+
+.height {
+    height: 37px;
+}
+
+@media (min-width:768px){
+
+
 .border {
     border-left: solid 1px #adacac;
     border-right: solid 1px #adacac;
 }
 
-.height {
-    height: 37px;
 }
